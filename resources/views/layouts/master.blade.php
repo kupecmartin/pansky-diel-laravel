@@ -47,29 +47,29 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">{{ __('Home') }}</a>
+                        <a class="nav-link" href="/">{{ __('Domov') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/results">{{ __('Results') }}</a>
+                        <a class="nav-link" href="/results">{{ __('Výsledky') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/gallery">{{ __('Gallery') }}</a>
+                        <a class="nav-link" href="/gallery">{{ __('Galéria') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">{{ __('Contact') }}</a>
+                        <a class="nav-link" href="/contact">{{ __('Kontakt') }}</a>
                     </li>
 
                     <!-- Authentication Links -->
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Prihlásenie') }}</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Registrácia') }}</a>
                             </li>
                         @endif
                     @else

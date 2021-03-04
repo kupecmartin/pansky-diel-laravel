@@ -21,7 +21,7 @@ class CreateAthletesTable extends Migration
             $table->char('first_name',100);
             $table->char('surname',100);
             $table->date('birth_date');
-            $table->string('nacionality');
+            $table->string('nationality');
             $table->char('sport_team',100);
             $table->string('tel_number');
             $table->string('email');
